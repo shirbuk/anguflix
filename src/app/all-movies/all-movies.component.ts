@@ -50,6 +50,10 @@ export class AllMoviesComponent implements OnInit {
     }, 2000);
   }
 
+  getSelectedMovies(){
+    
+  }
+
   private filterSavedMovies() {
     this.movies = this.movies.filter(movie => {
       return !this.usersService.getUser().savedMovies.some((savedMovie) => {
