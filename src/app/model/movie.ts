@@ -1,6 +1,6 @@
 export default class Movie {
     _id : string
-    ingUrl : string
+    imgUrl : string
     title : string
     year :number
     price : number
